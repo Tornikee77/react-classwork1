@@ -1,0 +1,10 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: aqua;
+  max-width: 1200px;
+}
+.fotoContainer {
+  display: flex;
+}
