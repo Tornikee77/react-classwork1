@@ -1,10 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-  background-color: aqua;
+  margin-top: 41px;
+
   max-width: 1200px;
 }
 .fotoContainer {
   display: flex;
+  align-items: center;
+}
+.navContainer {
+  max-width: 518px;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+.headerNav li {
+  cursor: pointer;
+  list-style: none;
+}
+.headerNav li a {
+  color: #15143966;
+  text-decoration: none;
 }

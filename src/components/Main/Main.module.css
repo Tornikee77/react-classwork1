@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 714px;
+}
+.heroTitle {
+  margin-top: 90px;
+  color: #1e0e62;
+  font-weight: 700;
+  font-size: 58px;
+  text-align: center;
+}
+.siteDescription {
+  margin-top: 22px;
+  color: #15143966;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 78px;
+  width: 714px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #007aff;
+  width: 200px;
+  height: 41px;
+  color: white;
+}
+.SignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #00c7be;
+  width: 200px;
+  height: 41px;
+  color: white;
+}
