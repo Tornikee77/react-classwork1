@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background-color: #007aff;
@@ -44,6 +45,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background-color: #00c7be;
